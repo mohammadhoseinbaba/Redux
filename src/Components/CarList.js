@@ -21,6 +21,6 @@ const CarList = () => {
             <button className="button is-danger" onClick={() => { handleCarDelete(car) }}>Delete</button>
         </div>
     })
-    return <div>{renderedcars}<hr /></div>
+    return <div>{renderedcars}<hr/></div>
 }
 export default CarList
